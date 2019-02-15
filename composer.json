@@ -1,0 +1,20 @@
+{
+  "name": "flegfleg/cmb2-field-switch-button",
+  "description": "Switch button field type for CMB2.",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "https://macht-medien.de",
+  "authors": [
+    {
+      "name": "Florian Egermann",
+      "email": "florian@wielebenwir.de"
+    },
+    {
+      "name": "improy"
+    }
+  ]
+}
