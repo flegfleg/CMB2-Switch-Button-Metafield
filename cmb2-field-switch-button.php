@@ -17,12 +17,12 @@
  */
 
 add_action('cmb2_render_switch', 'cmb2_switch_button', 10, 5);
-add_action('init', 'cmb2_switch_enqueue_scripts_styles', 10, 2);
+add_action('admin_init', 'cmb2_switch_enqueue_scripts_styles', 10, 2);
 
 function cmb2_switch_enqueue_scripts_styles()
 {
     wp_enqueue_style('cmb2-field-switch-styles', plugins_url('assets/css/style.css', __FILE__), null);
-    wp_enqueue_script('cmb2-field-switch-js', plugins_url('assets/js/switch_metafield.js', __FILE__), null);
+    wp_enqueue_script('cmb2-field-switch-js', plugins_url('assets/js/switch_metafield.js', __FILE__), array('jquery') );
 
 }
 
